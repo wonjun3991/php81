@@ -1,0 +1,13 @@
+version: '3.7'
+
+services:
+  php81:
+    tty: true
+    build:
+      context: ./docker
+      dockerfile: ./Dockerfile
+    container_name: php81
+    volumes:
+      - ./:/var/www/html
+    ports:
+      - 8000:8000
