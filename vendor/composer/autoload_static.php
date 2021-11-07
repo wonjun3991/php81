@@ -21,13 +21,13 @@ class ComposerStaticInit14699c67b678c5b74bf5f0baca4057cc
         array (
             'Webmozart\\Assert\\' => 17,
         ),
+        'T' => 
+        array (
+            'Test\\' => 5,
+        ),
         'S' => 
         array (
             'Symfony\\Polyfill\\Ctype\\' => 23,
-        ),
-        'R' => 
-        array (
-            'Root\\Html\\' => 10,
         ),
         'P' => 
         array (
@@ -38,6 +38,10 @@ class ComposerStaticInit14699c67b678c5b74bf5f0baca4057cc
         array (
             'Doctrine\\Instantiator\\' => 22,
             'DeepCopy\\' => 9,
+        ),
+        'A' => 
+        array (
+            'App\\' => 4,
         ),
     );
 
@@ -52,13 +56,13 @@ class ComposerStaticInit14699c67b678c5b74bf5f0baca4057cc
         array (
             0 => __DIR__ . '/..' . '/webmozart/assert/src',
         ),
+        'Test\\' => 
+        array (
+            0 => __DIR__ . '/../..' . '/test',
+        ),
         'Symfony\\Polyfill\\Ctype\\' => 
         array (
             0 => __DIR__ . '/..' . '/symfony/polyfill-ctype',
-        ),
-        'Root\\Html\\' => 
-        array (
-            0 => __DIR__ . '/../..' . '/src',
         ),
         'Prophecy\\' => 
         array (
@@ -75,6 +79,10 @@ class ComposerStaticInit14699c67b678c5b74bf5f0baca4057cc
         'DeepCopy\\' => 
         array (
             0 => __DIR__ . '/..' . '/myclabs/deep-copy/src/DeepCopy',
+        ),
+        'App\\' => 
+        array (
+            0 => __DIR__ . '/../..' . '/src',
         ),
     );
 

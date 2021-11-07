@@ -7,6 +7,7 @@ class NewFiber
 
     public function __construct()
     {
+
     }
 
     public function startFiber()
